@@ -11,9 +11,11 @@ body{
 }
 .half-width{
     width: 50%;
-    margin: 0 5%;
+    padding-left: 5%;
 }
-
+.half-width img{
+    width: 90%;
+}
 .skip{
     color: #FC8B47;
 }
@@ -41,4 +43,46 @@ body{
 
 #left-width{
     margin-top: 7%;
+}
+
+.half-width h2{
+    color: #707070;
+}
+
+.second-part{
+    
+    background-image: url(images/frame58.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.second-part img{
+    width: 55%;
+}
+
+#right-width{
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.hey{
+    font-size: 20px;
+    color: #D51D25;
+}
+
+.second-link-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg,#F43254,#D11A1E);
+    padding: 20px 35px;
+    color: white;
+    border-radius: 35px;
+    box-shadow: 2px 3px 15px gray;
+
+}
+
+#right-width h2{
+    font-size: 40px;
+    font-weight: 500;
 }
